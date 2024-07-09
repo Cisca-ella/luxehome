@@ -6,6 +6,9 @@ import Section from './Section';
 
 
 
+
+
+
 function App() {
   return (
     <div className="App">
@@ -14,6 +17,9 @@ function App() {
        </div>
       <Main/>
       <Section/>
+      <div>
+      
+      </div>
     </div>
   );
 }
