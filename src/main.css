@@ -1,0 +1,56 @@
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    background-image: url('https://s3-alpha-sig.figma.com/img/1458/8057/57832b87c14be4f31213eddf60ba8aff?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fwSQLjOSBkKuL4D-Z0jpLnsFnsTv2f40av0OSb6O1~iiipH9a~FtKyzNNNw4X0bXW3RM2vBsLN21bDnhmecTlqLpT32lkZA9bopLvV98jLFKUp5D1Rmdc-Vs4U3ZhuOWD8C-Y3Z8RuPYVpVlC5v2aGuSnW4kquN7g5JV6jM26yEU9yct73eD2inA8CrZmqu7Sb6Yzyu9kfTBTcBwoggpKDvNPtfkxu2mEgz7D3G2dlrUhhmoy~tvF8CTjJzcWICY1pH01YM2054g-o6Y4-CKaDgj34Adw0IN~gsVyYUpTXyShadeeKWJhe1Uh~IAH~rHIg4PPse9ZPR5YuopOoTUYg__'); /* Replace with your image URL */
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    color: white;
+    text-align: right; 
+    padding-right: 30px; 
+}
+  
+.hero-text {
+    position: relative;
+    z-index: 1;   
+}
+.hero-text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 78.02px;
+    color: #0A1F44;  
+    text-align: left; 
+    margin-right: 50px;
+    text-shadow: -0.1px -0.1px 0 #fff,  
+    0.1px -0.1px 0 #fff,
+   -0.1px  0.1px 0 #fff,
+    0.1px  0.1px 0 #fff;
+}
+.hero-text p{
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #CCCCCC;
+    ;
+}
+  
+.hero-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); /* Overlay color with light transparency */
+    z-index: 0;
+  }
+  
