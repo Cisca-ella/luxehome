@@ -4,7 +4,7 @@
 
 }
 .mag{
-    margin-top: 15em;
+    margin-top: 5em;
 }
 .text-div{
     margin-top: 20px;
@@ -36,7 +36,11 @@ button{
     line-height: 24px;
     text-align: left;
 }
-.img-1{
+.img{
+    background: #CCCCCC;
+    padding: 0;
+    width: 250px;
+    height: 400px;
     
 }
 .img-1 img{

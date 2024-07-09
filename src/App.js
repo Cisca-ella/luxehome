@@ -14,13 +14,12 @@ function App() {
     <div className="App">
       <div className="container">
       <Home/>
-       </div>
-      <Main/>
-      <Section/>
-      <div>
-      
       </div>
+      <Main/>
+      <Section/> 
     </div>
+   
+    
   );
 }
 
