@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "./Home.css"
 
 
+
 export default function Home() {
     return(
         <div className='container'>
@@ -21,12 +22,9 @@ export default function Home() {
                 </li>
                 <li> <i className="fa-solid fa-user"></i><br/> Account</li> 
                 <li><i class="fa-solid fa-cart-shopping"></i> <br/> Cart</li> 
-            </ul>
-            
-            
-            
-                
+            </ul>    
             </nav>
+
            
         </div>
     );

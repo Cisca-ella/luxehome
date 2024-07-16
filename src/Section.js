@@ -11,7 +11,7 @@ export default function Section() {
             <div className='div-p'>
                 <p>Top new arrivals</p>
             </div>
-            <div className='row scrollable-row'>
+            <div className='row mt-5 scrollable-row'>
                 <div className='col'>
                     <div className='grid-1'>
                     <div className='img-1'>
@@ -113,7 +113,7 @@ export default function Section() {
                     <p>Our Products</p>
                 </div>
 
-         <div className='row'>
+         <div className='row mt-4'>
              <div className='col'>
                  <div className='grid-2'>
                     <div className='img-1'>
@@ -243,8 +243,9 @@ export default function Section() {
 
             </div>
             <div className='bt-div2'>
-                <button className='show-more'>Show More</button>
+                <button>Show More</button>
             </div>
+            
 
             
         </div>

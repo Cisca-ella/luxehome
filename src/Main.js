@@ -9,8 +9,8 @@ export default function Main() {
                     <h1>WELCOME TO <br/>LUXEHOME</h1>
                     <p>Transform Your Living Space <br/>
                     and Explore our curated <br/>
-                     collection of exquisite home <br/>
-                      furnishings and appliances.</p>
+                    collection of exquisite home <br/>
+                    furnishings and appliances.</p>
 
 
                 </div>
