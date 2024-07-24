@@ -1,0 +1,15 @@
+.parent-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shop-div{
+    width: 80vw;
+    background-color: #0A1F44;
+ 
+}
+.order-div{
+    width: 20vw;
+    background-color: #6B7688;
+}
+
