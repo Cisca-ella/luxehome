@@ -5,6 +5,7 @@ import Main from './Main';
 import Section from './Section';
 import Collections from './Collections';
 import Footer from './Footer';
+import ShoppingCart from './ShoppingCart';
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Section/>
      <Collections/>
      <Footer/>
+     <ShoppingCart/>
     </div>
    
     
