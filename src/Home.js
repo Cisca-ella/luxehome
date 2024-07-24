@@ -21,7 +21,7 @@ export default function Home() {
                 <span className='si'><i className="fa-solid fa-magnifying-glass"></i></span>
                 </li>
                 <li> <i className="fa-solid fa-user"></i><br/> Account</li> 
-                <li><i class="fa-solid fa-cart-shopping"></i> <br/> Cart</li> 
+                <li><a href="./ShoppingCart.js" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-cart-shopping"></i></a>  <br/> Cart</li> 
             </ul>    
             </nav>
 
