@@ -10,8 +10,8 @@ export default function ShoppingCart() {
            <div className='shop-div'>
             <div className='container'>
               <div className='rowx'>
-                <h5>Shopping Cart</h5>
-                <h5>3 items</h5> 
+                <h5 className='mt-4'>Shopping Cart</h5>
+                <h5 className='mt-4'>3 items</h5> 
                 
               </div>
               <div className='rowx mt-3'>
@@ -108,7 +108,12 @@ export default function ShoppingCart() {
                         <p className='p2'>NGN120,000</p>
                     </div>
                 </div>
-
+                <div className='rowx mt-3'>
+                    <div className='imx-1'> 
+                        <p className='cs'><a href="./App.js" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-left"></i></a></p>
+                        <p className='cs'><a href="./App.js" target="_blank" rel="noopener noreferrer">continue shopping</a></p>
+                    </div>
+                </div>
               </div>
             </div> 
 
@@ -116,13 +121,40 @@ export default function ShoppingCart() {
             <div className='order-div'>
             <div className='container'>
                     <div className='os'>
-                        <h5>Order Sumary</h5>
+                        <h5 className='mt-4'>Order Sumary</h5>
                     </div>
                     <div className='itm'>
                         <p>4 Items</p>
                         <p>NGN700,000</p>
                     </div>
-           
+                    <div className='itm'>
+                        <p>PAYMENT METHOD</p>
+                    </div>
+                    <div className='bank-div'>
+                    <select class="form-select bktf" aria-label="Default select example">
+                         <option selected>Bank Transfer</option>
+                         <option value="1">Debit Cards</option>
+                         <option value="2">Cryptocurrency</option>
+                         <option value="3">Wallet</option>
+                    </select>
+                    </div>
+                    <div class="mt-5">
+                        <label for="exampleFormControlInput1" class="form-label promo">PROMO CODE</label>
+                        <input type="email" class="form-control bktf" id="exampleFormControlInput1" placeholder="Enter your Code"/>
+                    </div>
+                    <div className='mt-4 itm'>
+                        <button className='apply-btn'>APPLY</button>
+                    </div>
+                    <div className='mt-5 '>
+                            <p className='line-text'>_______________________</p> 
+                    </div>
+                    <div className='itm'>
+                        <h5 className='total-text'>TOTAL COST</h5>
+                        <h6 className='total-text2'>NGN700,000</h6>
+                    </div>
+                    <div className='mt-4 ckb'>
+                        <button className='check-btn'>CHECKOUT</button>
+                    </div>
              </div>
             </div>
 

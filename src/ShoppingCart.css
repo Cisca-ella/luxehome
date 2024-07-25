@@ -10,6 +10,7 @@
 }
 .shop-div h5{
     color: #1A73E8;
+    font-weight: 700;
 }
 
 .order-div{
@@ -18,7 +19,7 @@
     background-color: #6B7688;
 }
 .os h5{
-   
+    font-weight: 700;
     text-align: center;
 }
 .rowx{
@@ -41,9 +42,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 1.5em;
+    margin-right: 1em;
+
+    
 }
 .itm p{
     margin-top: 1em;
+    color: #CCCCCC;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 16px;
+    
 }
 .couch{
     width: 100px;
@@ -89,4 +99,83 @@
 }
 .pr-t{
     margin-right: 5em;
+}
+.cs a{
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+.bktf{
+    background-color:  #CCCCCC;
+    color:  #505050;
+    width: 200px;
+    margin-left: 1.5em;
+    margin-right: 1em;
+    border-radius: 10px;
+    font-size: 14px;
+    
+}
+.promo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1.5em;
+    margin-right: 1em;
+    color: #CCCCCC;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 16px;
+
+}
+.apply-btn{
+    background-color:  #D32F2F;
+    color: #ffffff;
+    padding: 1px 20px 1px 20px;
+    border: 1px solid #D32F2F;
+    font-size: 12px;
+
+}
+.apply-btn:hover{
+    background-color:  #D32F2F;
+    color: #ffffff;
+    padding: 1px 20px 1px 20px;
+    border: 1px solid #D32F2F;
+    font-size: 12px; 
+}
+.line-text{
+    color: #1A73E8;
+    margin-left: 1.5em;
+    margin-right: 1em;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.total-text {
+    font-size: 14px;
+    color: #CCCCCC;
+}
+.total-text2 {
+    font-size: 12px;
+    color: #CCCCCC;
+}
+.ckb{
+    display: flex;
+    align-items: center;
+}
+.check-btn{
+    margin: 0 auto;
+    background-color:  #1A73E8;
+    color: #ffffff;
+    padding: 1px 50px 1px 50px;
+    border: 1px solid #1A73E8;
+    font-size: 10px;
+}
+.check-btn:hover{
+    margin: 0 auto;
+    background-color:  #1A73E8;
+    color: #ffffff;
+    padding: 1px 50px 1px 50px;
+    border: 1px solid #1A73E8;
+    font-size: 10px;
 }
