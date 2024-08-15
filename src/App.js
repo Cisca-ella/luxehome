@@ -1,12 +1,9 @@
+import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-
 import './App.css';
 import Home from './Home';
-import Main from './Main';
-import Section from './Section';
-import Collections from './Collections';
-import Footer from './Footer';
-/*import ShoppingCart from './ShoppingCart';*/
+
+
 
 
 
@@ -17,10 +14,7 @@ function App() {
      
       <Routes>
          <Route path='/' element={<Home/>} />
-         <Route path='/main' element={<Main/>} />
-         <Route path='/Section' element={<Section/>} />
-         <Route path='/collections' element={<Collections/>} />
-         <Route path='/footer' element={<Footer/>} />
+        
        </Routes>
     </div>
    

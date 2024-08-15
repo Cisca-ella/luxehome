@@ -1,9 +1,11 @@
 import React from 'react';
+
 import 'bootstrap/dist/css/bootstrap.css';
 import './ShoppingCart.css';
 
 
 export default function ShoppingCart() {
+    
     return(
        
         <div className='parent-div'>
