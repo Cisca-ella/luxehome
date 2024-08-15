@@ -1,12 +1,19 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
-import "./Home.css"
+import "./Home.css";
+import Main from './Main';
+import Section from './Section';
+import Collections from './Collections';
+import Footer from './Footer';
+import ShoppingCart from './ShoppingCart';
 
 
 
 export default function Home() {
-    return(
-        <div className='container'>
+    return(       
+         <div >
+
             <nav className='navbar'>
             <div className='lh'>
                 <h2>LuxeHome</h2>
@@ -21,11 +28,15 @@ export default function Home() {
                 <span className='si'><i className="fa-solid fa-magnifying-glass"></i></span>
                 </li>
                 <li> <i className="fa-solid fa-user"></i><br/> Account</li> 
-                <li><a href="./ShoppingCart.js" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-cart-shopping"></i></a>  <br/> Cart</li> 
+                <li><Link to="./ShoppingCart.js"><i class="fa-solid fa-cart-shopping"></i></Link>  <br/> Cart</li> 
             </ul>    
             </nav>
 
-           
+            <Main/> 
+            <Section/>
+            <Collections/>
+            <Footer/>
         </div>
+        
     );
 }
